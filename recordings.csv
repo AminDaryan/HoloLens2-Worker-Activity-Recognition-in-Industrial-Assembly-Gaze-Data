@@ -1,0 +1,41 @@
+file,slot,recorded_by,activity,samples,duration_s,valid_gaze_pct,repeated_rows,max_gap_s,paper_file,notes
+P01/P01_Assembly.csv,P01,P01,Assembly,3199,106.5,93.5,0,0.0,01_Assembly,"1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P01/P01_Gluing.csv,P01,P01,Gluing,2178,72.6,96.1,0,0.1,01_Gluing,"saved under the recording name ""Assembly"" because the name was not changed after the assembly take; this is the gluing recording"
+P01/P01_Waiting.csv,P01,P01,Waiting,3133,104.4,93.2,0,0.0,01_Waiting,
+P01/P01_Walking.csv,P01,P01,Walking,2473,82.4,82.7,0,0.0,01_Walking,
+P02/P02_Assembly.csv,P02,P02,Assembly,2451,81.7,91.5,0,0.0,02_Assembly,
+P02/P02_Gluing.csv,P02,P02,Gluing,2234,74.4,91.5,0,0.0,02_Gluing,
+P02/P02_Waiting.csv,P02,P02,Waiting,2006,66.8,89.9,0,0.0,02_Waiting,
+P02/P02_Walking.csv,P02,P02,Walking,1844,61.4,80.3,0,0.0,02_Walking,
+P03/P03_Assembly.csv,P03,P03,Assembly,1966,65.5,95.4,0,0.0,03_Assembly,
+P03/P03_Gluing.csv,P03,P03,Gluing,2450,81.6,94.2,0,0.0,03_Gluing,
+P03/P03_Waiting.csv,P03,P03,Waiting,2064,68.8,82.9,0,0.0,03_Waiting,
+P03/P03_Walking.csv,P03,P03,Walking,1731,57.7,79.4,0,0.0,03_Walking,
+P04/P04_Assembly.csv,P04,P04,Assembly,2072,69.0,96.9,0,0.0,04_Assembly,
+P04/P04_Gluing.csv,P04,P04,Gluing,2378,79.2,91.6,0,0.0,04_Gluing,logged under a mistyped participant number; assigned to P04
+P04/P04_Waiting.csv,P04,P10,Waiting,1962,65.4,77.9,0,0.0,04_Waiting,recorded by P10; fills this slot because P04's own waiting recording contains no samples
+P04/P04_Walking.csv,P04,P04,Walking,1917,63.9,77.4,0,0.0,04_Walking,logged without a participant name; assigned to P04
+P05/P05_Assembly.csv,P05,P05,Assembly,2338,77.8,92.4,0,0.0,05_Assembly,"1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P05/P05_Gluing.csv,P05,P05,Gluing,2116,70.5,90.1,0,0.0,05_Gluing,
+P05/P05_Waiting.csv,P05,P05,Waiting,1737,57.9,93.2,0,0.0,05_Waiting,
+P05/P05_Walking.csv,P05,P09,Walking,1710,58.0,72.6,0,0.2,05_Walking,"recorded by P09; fills this slot because P05's own walking recording contains no samples; 1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P06/P06_Assembly.csv,P06,P06,Assembly,2156,71.8,96.9,0,0.0,06_Assembly,
+P06/P06_Gluing.csv,P06,P06,Gluing,2190,73.0,91.6,0,0.0,06_Gluing,
+P06/P06_Waiting.csv,P06,P06,Waiting,1843,61.4,84.2,0,0.0,06_Waiting,
+P06/P06_Walking.csv,P06,P06,Walking,2292,76.4,83.8,0,0.0,06_Walking,
+P07/P07_Assembly.csv,P07,P07,Assembly,1711,56.9,95.8,0,0.0,07_Assembly,"1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P07/P07_Gluing.csv,P07,P07,Gluing,2230,74.3,90.3,0,0.0,07_Gluing,
+P07/P07_Waiting.csv,P07,P07,Waiting,1900,63.3,95.5,0,0.0,07_Waiting,
+P07/P07_Walking.csv,P07,P07,Walking,2577,85.9,89.5,0,0.0,07_Walking,
+P08/P08_Assembly.csv,P08,P08,Assembly,2214,73.8,94.6,0,0.1,08_Assembly,
+P08/P08_Gluing.csv,P08,P08,Gluing,2610,87.0,94.2,0,0.0,08_Gluing,
+P08/P08_Waiting.csv,P08,P08,Waiting,2023,67.4,92.9,0,0.0,08_Waiting,
+P08/P08_Walking.csv,P08,P08,Walking,2322,77.4,86.1,0,0.0,08_Walking,
+P09/P09_Assembly.csv,P09,P09,Assembly,2057,68.5,90.4,0,0.0,09_Assembly,"1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P09/P09_Gluing.csv,P09,P09,Gluing,1987,66.2,93.7,0,0.0,09_Gluing,
+P09/P09_Waiting.csv,P09,P09,Waiting,5632,82.3,67.1,3747,0.9,09_Waiting,header line was written after data line 46 in the original file; moved to the top; 3747 rows are exact repeats of the previous row (logging fault); kept as recorded
+P09/P09_Walking.csv,P09,P09,Walking,3305,67.5,72.8,1637,0.6,09_Walking,header line was written after data line 31 in the original file; moved to the top; 1637 rows are exact repeats of the previous row (logging fault); kept as recorded
+P10/P10_Assembly.csv,P10,P10,Assembly,1858,61.8,95.2,0,0.0,10_Assembly,"1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P10/P10_Gluing.csv,P10,P10,Gluing,2069,68.9,99.0,0,0.0,10_Gluing,"the original export was not available, so this file was taken from the paper's dataset; 1 sample(s) with an eyeDataTimestamp 1 ms earlier than the previous sample, as recorded"
+P10/P10_Waiting.csv,P10,P10,Waiting,2228,74.2,78.0,0,0.0,10_Waiting,
+P10/P10_Walking.csv,P10,P10,Walking,2048,68.6,75.8,0,0.4,10_Walking,
